@@ -151,7 +151,7 @@ li.active-link {
 }
 
 main,
-.footer-sections {
+.footer-content {
   width: 100%;
   max-width: 1480px;
   margin: auto;
@@ -232,20 +232,20 @@ main,
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2rem;
   margin-top: 4rem;
 }
 
 .three-column {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2rem;
 }
 
 .two-column {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 2rem;
 }
 .one-column,
@@ -331,8 +331,14 @@ main,
   .image-icons {
     width: 35%;
   }
+  .cards {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
   .two-column {
     grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+  }
+  .three-column {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   }
   .mobile-menu {
     display: none;
