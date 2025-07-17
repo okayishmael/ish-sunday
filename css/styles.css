@@ -238,6 +238,9 @@ main,
   grid-gap: 2rem;
   margin-top: 4rem;
 }
+.card {
+  width: 100%;
+}
 .three-column {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
