@@ -246,7 +246,7 @@ main,
 
 .two-column {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(576px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-gap: 2rem;
 }
 .one-column,
@@ -332,7 +332,9 @@ main,
     .image-icons {
       width: 35%;
     }
-
+    .two-column {
+      grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    }
     .mobile-menu {
       display: none;
     }
