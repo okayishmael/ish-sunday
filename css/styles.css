@@ -24,7 +24,7 @@ a {
   font-size: 1.1rem;
   color: #242c38;
   font-weight: 600;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .sublevel-links-item.active {
@@ -132,7 +132,7 @@ nav {
   border-radius: 50%;
   border: none;
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .mobile-menu:hover {
@@ -346,7 +346,7 @@ main,
   .disktop-menu {
     display: flex;
     color: #242c38 !important;
-    opacity: 0.4;
+    opacity: 0.7;
     font-size: 0.775rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -358,7 +358,11 @@ main,
     color: #000;
     opacity: 1;
   }
-
+  .active {
+    color: #242c38;
+    font-weight: 900;
+    opacity: 1;
+  }
   h1 {
     font-size: 2rem;
     font-weight: 900;
@@ -380,6 +384,7 @@ main,
   }
   .project-detail {
     max-width: 800px;
+    margin: auto;
   }
   h1 {
     font-size: 1.5rem;
