@@ -11,7 +11,11 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
+.inline-link {
+  text-decoration: underline;
+  color: #242c38;
+  font-weight: 600;
+}
 .sublevel-links-content {
   display: flex;
   flex-wrap: wrap;
@@ -50,8 +54,10 @@ body {
 }
 h2 {
   font-size: 1.6rem;
-  font-weight: 500;
-  opacity: 0.7;
+  font-weight: 900;
+
+  margin-bottom: 2rem;
+  color: #242c38;
 }
 p {
   font-size: 1.2rem;
@@ -60,12 +66,41 @@ p {
   opacity: 0.7;
   margin-bottom: 1rem;
 }
+ul {
+  padding-left: 1.5em;
+  margin-bottom: 1rem;
+}
+li {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #242c38;
+  opacity: 0.7;
+}
+.liberia-ux-projects {
+  background-color: #e6eef8;
+}
+.print-projects {
+  background-color: #fbf7eb;
+}
+.branding-projects {
+  background-color: #f4fcf1;
+}
+.logo-projects {
+  background-color: #fef2f2;
+}
+.web-projects {
+  background-color: hsl(267, 56%, 94%);
+}
+.motion-projects {
+  background-color: #f0f9f7;
+}
 img {
   max-width: 100%;
   height: auto;
-  background-color: f9f9f9;
+
   border-radius: 10px;
 }
+
 .banner img {
   width: 100%;
   height: auto;
