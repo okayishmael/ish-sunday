@@ -95,6 +95,7 @@ li {
   background-color: #f0f9f7;
 }
 img {
+  width: 100%;
   max-width: 100%;
   height: auto;
 
